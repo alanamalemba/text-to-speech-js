@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">I Can Read Out What You Type Down Here ... :)</h1>
+    <div class="text-content">
+      <textarea name="" id="text-area">
+      Hello! Thank you for visiting Alan's Website.
+      Alan told me that you are an awesome person and asked me to come play with you.
+      Lets play! Write down or paste in what you want me to read and I'll read it out for you. 
+      Have fun!</textarea
+      >
+      <button class="clear-btn">Clear</button>
+    </div>
+
+    <div class="controls">
+      <label
+        >Speed
+        <select id="speed-input">
+          <option value="0.5">0.5</option>
+          <option selected value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+        </select>
+      </label>
+      <button class="play-btn">Read</button>
+      <button class="pause-btn hidden">Pause</button>
+      <button class="stop-btn hidden">Stop</button>
+    </div>
+  </body>
+</html>
